@@ -30,7 +30,7 @@ biblioteca/
 │   │       └── DataInitializer.java  # Datos de ejemplo
 │   └── pom.xml
 │
-├── frontend/         # Angular 19
+└── frontend/         # Angular 19
     └── src/app/
         ├── models/             # Interfaces TypeScript
         ├── services/           # AutorService, LibroService (Observables)
