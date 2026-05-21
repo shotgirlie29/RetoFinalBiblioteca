@@ -31,16 +31,15 @@ biblioteca/
 │   └── pom.xml
 │
 ├── frontend/         # Angular 19
-│   └── src/app/
-│       ├── models/             # Interfaces TypeScript
-│       ├── services/           # AutorService, LibroService (Observables)
-│       ├── components/
-│       │   ├── autores/        # Lista, Detalle, Formulario
-│       │   └── libros/         # Lista, Formulario
-│       ├── app.routes.ts       # Rutas con lazy loading
-│       └── app.config.ts       # Configuración standalone
-│
-└── README.md
+    └── src/app/
+        ├── models/             # Interfaces TypeScript
+        ├── services/           # AutorService, LibroService (Observables)
+        ├── components/
+        │   ├── autores/        # Lista, Detalle, Formulario
+        │   └── libros/         # Lista, Formulario
+        ├── app.routes.ts       # Rutas con lazy loading
+        └── app.config.ts       # Configuración standalone
+
 ```
 
 ---
