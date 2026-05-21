@@ -1,4 +1,4 @@
-# 📚 BibliotecaApp — Spring Boot + Angular
+# BibliotecaApp — Spring Boot + Angular
 
 Aplicación full-stack para gestión de una biblioteca.  
 Relación 1:M → **Autor tiene muchos Libros**
@@ -112,25 +112,6 @@ La aplicación abre en **http://localhost:4200**
 | POST   | /api/libros                 | Crear nuevo libro                |
 | PUT    | /api/libros/{id}            | Actualizar libro                 |
 | DELETE | /api/libros/{id}            | Eliminar libro                   |
-
----
-
-## Requisitos del proyecto cubiertos
-
-### Frontend Angular
-- ✅ Componentes StandAlone (todos los componentes usan `standalone: true`)
-- ✅ Signals (`signal()`, `computed()`) en AutoresLista, LibrosLista, AutorDetalle, formularios
-- ✅ Formularios reactivos (`ReactiveFormsModule`, `FormBuilder`, `Validators`)
-- ✅ Llamadas a API REST desde servicios Angular
-- ✅ Observables (`Observable<T>`) en todos los servicios
-- ✅ Navegación con rutas y lazy loading (`loadComponent`)
-
-### Backend Spring Boot
-- ✅ API REST expuesta y funcional
-- ✅ Operaciones CRUD completas
-- ✅ Base de datos H2 en memoria
-- ✅ Relación 1:M entre `Autor` y `Libro` (`@OneToMany` / `@ManyToOne`)
-- ✅ Persistencia con JPA/Hibernate
 
 ---
 
